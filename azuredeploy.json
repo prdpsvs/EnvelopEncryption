@@ -19,8 +19,8 @@
         },
         "sparkVersion": "3.1",
         "libraryRequirements":{
-            "content": "",
-            "filename": "/requirements.txt"
+            "content": "splink==1.0.3",
+            "filename": ""
         }
       }
     }

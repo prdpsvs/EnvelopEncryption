@@ -5,28 +5,22 @@
     {
       "type": "Microsoft.Synapse/workspaces/bigDataPools",
       "apiVersion": "2019-06-01-preview",
-      "name": "pvenkat-test-ws/testpoolsparkconf",
-      "location": "westeurope",
+      "name": "pvenkat-synapse-ws/testpoolsparkconf",
+      "location": "uswest3",
       "dependsOn": [
-        "pvenkat-test-ws"
+        "pvenkat-synapse-ws"
       ],
       "properties": {
-        "nodeCount": 5,
+        "nodeCount": 3,
         "nodeSizeFamily": "MemoryOptimized",
         "nodeSize": "Small",
         "autoScale": {
-          "enabled": true,
-          "minNodeCount": 3,
-          "maxNodeCount": 5
-        },
-        "autoPause": {
-          "enabled": true,
-          "delayInMinutes": 15
+          "enabled": false
         },
         "sparkVersion": "3.1",
         "libraryRequirements":{
             "content": "",
-            "filename": "requirements.txt"
+            "filename": "/requirements.txt"
         }
       }
     }

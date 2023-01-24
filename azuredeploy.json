@@ -6,7 +6,7 @@
       "type": "Microsoft.Synapse/workspaces/bigDataPools",
       "apiVersion": "2019-06-01-preview",
       "name": "pvenkat-synapse-ws/testpoolsparkconf",
-      "location": "uswest3",
+      "location": "uswest",
       "dependsOn": [
         "pvenkat-synapse-ws"
       ],
